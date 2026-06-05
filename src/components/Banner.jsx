@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className='flex flex-col md:flex-row md:items-start items-center
     justify-between px-8 min-md:pl-14 pt-10 bg-gradient-to-r from-[#0558FE] to-[#a8e1fa] 
-    max-w-6xl  rounded-2xl overflow-hidden sm:px-20'>
+    max-w-6xl md:mx-auto rounded-2xl overflow-hidden'>
 
       <div className="text-white">
         <h2 classsName='text-3xl font-medium'>DO You Own a Luxury Car?</h2>
