@@ -50,7 +50,7 @@ const Dashboard = () => {
 
       </div>
 
-      <div className="flex flex-wrap items-start gap-6 w-full mb-8">
+      <div className="flex flex-wrap items-start gap-6 mb-8 w-full">
         {/* recent bookings */}
         <div className="p-4 md:p-6 border border-borderColor rounded-md max-w-lg
         w-full">
@@ -75,7 +75,6 @@ const Dashboard = () => {
                 <p className="px-3 py-0.5 border border-borderColor rounded-full
                 text-sm">{booking.status}</p>
               </div>
-
             </div>
           ))}
 
